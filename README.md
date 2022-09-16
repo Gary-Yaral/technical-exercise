@@ -1,12 +1,14 @@
-# technical-exercise
+# Technical Exercise
 
 Given the following array (users) of objects complete the tasks described below – Code efficiency will be considered. 
 (Use the programming language of your preference):
-1.- Sort the array by attribute “name” (Descending).
-2.- Delete duplicated objects.
-3.- Create a new array with those objects which "Age" attribute is bigger than 21.
-4.- Find the oldest user.
+- 1.- Sort the array by attribute “name” (Descending).
+- 2.- Delete duplicated objects.
+- 3.- Create a new array with those objects which "Age" attribute is bigger than 21.
+- 4.- Find the oldest user.
 Please print each step result on the screen.
+
+``` console
 users = [
     {
         name: Josh,
@@ -42,6 +44,9 @@ users = [
         name: Paul,
         age: 57    }
 ]
+```
+
+## Javascript
 
 ``` javascript
 let users = [
