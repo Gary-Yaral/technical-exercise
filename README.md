@@ -106,7 +106,7 @@ let users = [
   
   // OR 
   
-  let result = users.sort((a, b) => a.localeCompare(b))
+  let result = users.sort((a. b) => a.name.localeCompare(b.name))
   console.log(result)
 
   // 2.- Delete duplicated objects.
